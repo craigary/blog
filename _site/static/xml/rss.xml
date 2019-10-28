@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Craig · Talk</title>
+    <link>https://talk.craigary.net</link>
+    <description>Just some random thoughts.</description>
+    <language>zh-CN</language>
+    <pubDate>Mon, 28 Oct 2019 00:28:22 +0800</pubDate>
+    <lastBuildDate>Mon, 28 Oct 2019 00:28:22 +0800</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    <atom:link href="https://talk.craigary.net/static/xml/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use AutoHotkey To Make Cap Key Great Again</title>
+      <link>https://talk.craigary.net/posts/2019/05/17/Use-AutoHotkey-To-Make-Cap-Key-Great-Again.html</link>
+      <description>Humaniswired,weoftencomeupwithvariousinterestingthoughts,andhopeitcouldcometoreality.Humanalsodifferent,wehavediffere...</description>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0800</pubDate>
+      <gui>https://talk.craigary.net/posts/2019/05/17/Use-AutoHotkey-To-Make-Cap-Key-Great-Again.html</gui>
+    </item>
+  </channel>
+</rss>
