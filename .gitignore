@@ -3,3 +3,5 @@
 /build/draft
 /build/dist.tar
 /build/upload.exe
+/_site
+.DS_Store
