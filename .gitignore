@@ -3,4 +3,7 @@
 /build/draft
 /build/dist.tar
 /build/upload.exe
-.DS_Store
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
