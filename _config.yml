@@ -26,8 +26,8 @@ tucaoUrl: https://support.qq.com/product/86335
 menu:
   - title: Index
     url: /
-  - title: Archives
-    url: /pages/archive.html
+  - title: Category
+    url: /pages/category.html
   - title: Search
     url: /pages/search.html
   - title: Links

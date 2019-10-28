@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: Use AutoHotkey To Make Cap Key Great Again
+categories: [Lab]
 ---
 
 Human is wired, we often come up with various interesting thoughts, and hope it could come to reality. Human also different, we have different demands which are not easy to make something that can satisfy all of us. When present situation can't match our requirements, we gotta make our own.

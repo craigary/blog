@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Archive
+title: Category
 css: [common.css,page.css]
 js: [blog.js]
 ---
 
 <div class="page page-categories animation-fade-up">
 	<div class="list-category">
-		<h2>Archive</h2>
+		<h2>Category</h2>
 		<div>
 			{% for category in site.categories %}
 			<a href="javascript:document.getElementById('{{ category[0] }}').scrollIntoView()">{{ category[0] }}</a>
