@@ -250,12 +250,13 @@ body {
     font-size: 13px;
   }
   .footer .social-icons{
-    left: 0;
-    top: 34.5px;
+    display: none;
+    /* left: 0;
+    top: 34.5px; */
   }
-  .footer .social-icons a{
+  /* .footer .social-icons a{
     padding-left: 0;
-  }
+  } */
   #moveUp {
     right: 14px;
     bottom: -40px;
