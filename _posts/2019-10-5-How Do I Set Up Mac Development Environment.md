@@ -5,7 +5,7 @@ title: How Do I Set Up Mac Development Environment
 
 Ever since I switch my main computer from a 3-year-old Dell laptop to MacBook pro, I am impressed by the build quality, design, operating system, and battery life. Everything starts from the first MacBook Pro I got during my internship, then I grabbed a 13 inch MacBook pro 2015 early version.
 
-TBH I am not that picky when choosing an operating system, no matter windows 10, macOS, or even Linux distros, but MacOS provide an excellent design, a decent command key, stability, and consistency. 
+TBH I am not that picky when choosing an operating system, no matter windows 10, macOS, or even Linux distros, but MacBook always provide an excellent design, a decent command key, stability, and consistency. 
 
 Here is my MacBook Pro set up, I wrote this as a backup for the next time if I need to do this again, also is nice to share for those who need to set up their Mac for development propose.
 
