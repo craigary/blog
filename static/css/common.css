@@ -194,6 +194,7 @@ body {
   white-space: nowrap;
 }
 .footer {
+  position: relative;
   padding: 15px 0;
   font-size: 14px;
   line-height: 1.5;
@@ -203,6 +204,19 @@ body {
   color: #000000;
   padding: 0 4px;
   white-space: nowrap;
+}
+.footer .social-icons{
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+.footer .social-icons a{
+  padding-right: 0;
+  text-decoration: none;
+  color: #333333;
+}
+.footer .social-icons li{
+  display: inline;
 }
 .footer #copyright-char {
   font-family: sans-serif;
@@ -234,6 +248,13 @@ body {
   }
   .footer {
     font-size: 13px;
+  }
+  .footer .social-icons{
+    left: 0;
+    top: 34.5px;
+  }
+  .footer .social-icons a{
+    padding-left: 0;
   }
   #moveUp {
     right: 14px;

@@ -4,6 +4,17 @@
   <!-- 请保留主题来源 -->
   <span>Theme By</span>
   <a href="https://github.com/TMaize/tmaize-blog">TMaize</a>
+  <div class="social-icons">
+    <ul>
+      {% for social in site.social-links %}
+      <li>
+        <a href="{{ social.url }}" title="{{ social.title }}" target="_blank" >
+        <i class="fa {{ social.icon }}"></i>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>    
+  </div>
 </footer>
 <img id="moveUp" class="select-none" src="{{site.baseUrl}}/static/img/up.svg">
 <!-- 全局属性blog -->
