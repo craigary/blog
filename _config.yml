@@ -64,3 +64,18 @@ customPlugins:
 links:
   - title: Twitter
     url: http://twitter.com/craigaryhart
+
+# Social Links
+social-links:
+  - title: Twitter
+    url: http://twitter.com/craigaryhart
+    icon: fa-twitter
+  - title: Weibo
+    url: http://twitter.com/craigaryhart
+    icon: fa-weibo
+  - title: Github
+    url: http://twitter.com/craigaryhart
+    icon: fa-github
+  - title: Email
+    url: mailto:i@craigary.net
+    icon: fa-envelope-o
