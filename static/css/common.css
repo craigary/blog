@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i&display=swap');
-/* @media screen and (max-width: 560px) {
-  @font-face {
-    font-family: 'Consolas';
-    src: url('../font/consola.ttf');
-  }
-} */
+
+@font-face {
+  font-family: 'Consolas';
+  src: url('../font/consola.ttf');
+}
 
 html,
 body {
@@ -204,6 +203,9 @@ body {
   color: #000000;
   padding: 0 4px;
   white-space: nowrap;
+}
+.footer #copyright-char {
+  font-family: sans-serif;
 }
 #moveUp {
   position: fixed;

@@ -5,7 +5,7 @@ title: Craig · Talk
 description: Just some random thoughts.
 keywords: Craig,Craigary,Blog,Web,Html,JavaScript
 author: Craig Hart
-footerText: Let's Rock
+footerText: Copyright <span id="copyright-char">©</span> 2015 - 2019
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -20,7 +20,7 @@ domainUrl: 'https://talk.craigary.net'
 baseUrl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/product/86335
+# tucaoUrl: https://support.qq.com/product/86335
 
 # 菜单
 menu:
@@ -32,8 +32,8 @@ menu:
     url: /pages/search.html
   - title: Links
     url: /pages/links.html
-  - title: Comments
-    url: /pages/chat.html
+  # - title: Comments
+  #   url: /pages/chat.html
   - title: About
     url: /pages/about.html
 
