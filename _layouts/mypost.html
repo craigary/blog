@@ -16,6 +16,14 @@
     {{ content }}
   </div>
 </div>
+<hr>
+<div id="comments">
+  <section id="isso-thread" data-title="{{ page.title }}" data-isso-id="{{ page.url }}"></section>
+</div>
+<script>
+  var commentsComp = document.getElementById('comments')
+  commentsComp.classList.add('hide')
+</script>
 {% include footer.html %}
 </body>
 </html>

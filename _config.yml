@@ -47,7 +47,7 @@ menu:
 # plugin-mathjax
 # 数学公式支持，比较影响加载速度，请设置为 false
 customPlugins:
-  - use: false
+  - use: true
     file: 'plugin-isso-comments.html'
   - use: false
     file: 'plugin-mta-stats.html'
