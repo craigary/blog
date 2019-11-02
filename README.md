@@ -11,3 +11,5 @@ Currently there are still lots of works need to be done and please feel free to 
 # license
 
 All the articles are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+[Site source](https://github.com/craigary/blog) is licensed under MIT License.
