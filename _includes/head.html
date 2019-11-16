@@ -1,22 +1,21 @@
 <head>
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="content-language" content="en-US" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="applicable-device" content="pc,mobile">
-  <!-- <meta name="google-site-verification" content="ckhUaoa05QCmWoE1FafzTBcqYI4yBOy-UJKopXDS18M" /> -->
-  <meta name="author" content="{{ site.author }}" />
-  {% if page.categories %}
-  <meta name="description" content="{{ page.title }}"/>
-  <meta name="keywords" content="{{ site.author }}{% for category in page.categories %},{{ category }}{% endfor %}"/>
-  {% else %}
-  <meta name="description" content="{{ site.description }}"/>
-  <meta name="keywords" content="{{ site.keywords }}"/>
-  {% endif %}
-  <link rel="icon" href="{{site.baseUrl}}/static/img/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="{{site.baseUrl}}/static/img/favicon.ico" type="image/x-icon"/>
-  {% for css in pageCSS %}
-  <link rel="stylesheet" href="{{site.baseUrl}}/static/css/{{ css }}?t={{buildAt}}">
-  {% endfor %}
-  <link href="https://cdn.jsdelivr.net/npm/ficons@1.1.52/dist/ficons/font.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+  <!-- Font-Awesome -->
+  <!-- <script src="https://kit.fontawesome.com/fa7f74c5d1.js" crossorigin="anonymous"></script> -->
+  <script src="{{ site.baseurl }}/js/vendors/font-awesome.js"></script>
+  <style>
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
 </head>

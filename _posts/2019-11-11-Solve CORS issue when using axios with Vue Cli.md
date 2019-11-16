@@ -1,6 +1,9 @@
 ---
-layout: mypost
+layout: post
 title: Solve CORS issue when using axios with Vue Cli
+date: 2019-11-11
+image: images/vue-axios.png
+tags: [Code]
 ---
 
 Install axios:

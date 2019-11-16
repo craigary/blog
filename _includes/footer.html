@@ -1,31 +1,20 @@
-<footer class="footer select-none animation-fade-up">
-  <span>{{ site.footerText }}</span>
-  <a href="{{ site.baseUrl }}/static/xml/rss.xml">Subscribe</a>
-  <!-- 请保留主题来源 -->
-  <span>Theme By</span>
-  <a href="https://github.com/TMaize/tmaize-blog">TMaize</a>
-  <div class="social-icons">
-    <ul>
-      {% for social in site.social-links %}
-      <li>
-        <a href="{{ social.url }}" title="{{ social.title }}" target="_blank" >
-        <i class="fa {{ social.icon }}"></i>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>    
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-12">
+      <!-- begin footer -->
+      {% if site.footer-image %}
+        <footer class="footer footer-image" style="background-image: url('{{site.footer-image | relative_url }}')">
+          {% include contact-link.html %}
+            <div class="copyright wow fadeInUp" data-wow-delay=".2s">{{site.time | date: '%Y'}} &copy; <a href="/" class="copyright__link">{% if site.title %}{{site.title}}{% else %}Reked Theme{% endif %}</a>. Crafted & Designed by <a href="https://artemsheludko.github.io" class="copyright__link">Artem Sheludko</a>.</div>
+        </footer>
+      {% else %}
+        <footer class="footer">
+          {% include contact-link.html %}
+            <div class="copyright wow fadeInUp" data-wow-delay=".2s">{{site.time | date: '%Y'}} &copy; <a href="/" class="copyright__link">{% if site.title %}{{site.title}}{% else %}Reked Theme{% endif %}</a>. Crafted & Designed by <a
+              href="https://artemsheludko.github.io" class="copyright__link">Artem Sheludko</a>.</div>
+        </footer>
+      {% endif %}
+      <!-- end footer -->
+    </div>
   </div>
-</footer>
-<img id="moveUp" class="select-none" src="{{site.baseUrl}}/static/img/up.svg">
-<!-- 全局属性blog -->
-<script>window.blog={baseUrl:"{{site.baseUrl}}", buildAt:"{{buildAt}}"}</script>
-<!-- 引入页面中配置的JS -->
-{% for js in pageJS %}
-<script type="text/javascript" src="{{site.baseUrl}}/static/js/{{ js }}?t={{ buildAt }}"></script>
-{% endfor %}
-<!-- 引入配置的插件 -->
-{% for cp in site.customPlugins %}
-  {% if cp.use %}
-  {% include {{cp.file}} values=cp %}
-  {% endif %}
-{% endfor %}
+</div>

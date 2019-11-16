@@ -1,0 +1,19 @@
+<div class="contact wow fadeInUp">
+  <ul class="contact__list list-reset">
+    {% if site.twitter %}
+      <li class="contact__item"><a href="{{ site.twitter }}" class="contact__link"><i class="fab fa-twitter"></i></a></li>
+    {% else %} {% endif %}
+    {% if site.github %}
+      <li class="contact__item"><a href="{{ site.github }}" class="contact__link"><i class="fab fa-github-alt"></i></a></li>
+    {% else %} {% endif %}
+    {% if site.weibo %}
+      <li class="contact__item"><a href="{{ site.weibo }}" class="contact__link"><i class="fab fa-weibo"></i></a></li>
+    {% else %} {% endif %}
+    {% if site.instagram %}
+      <li class="contact__item"><a href="{{ site.instagram }}" class="contact__link"><i class="fab fa-instagram"></i></a></li>
+    {% else %} {% endif %}
+    {% if site.rss %}
+      <li class="contact__item"><a href="{{ site.url }}/{{ site.rss }}" class="contact__link"><i class="fas fa-rss"></i></a></li>
+    {% else %} {% endif %}
+  </ul>
+</div>

@@ -1,7 +1,8 @@
 ---
-layout: mypost
+layout: post
 title: "A Resignation Letter" 
-categories: [Uncategorized]
+date: 2018-05-01
+tags: [Life]
 ---
 
 Since Middle school, I have been always responsible for PowerPoint design for class / team. Especially during my first year in college, nearly half of PowerPoint for my Major were made by me. Also, I made several consults / public trainings during my college life.
