@@ -8,7 +8,7 @@ tags: [Work]
 
 Ever since I switch my main computer from a 3-year-old Dell laptop to MacBook pro, I am impressed by the build quality, design, operating system, and battery life. Everything starts from the first MacBook Pro I got during my internship, then I grabbed a 13 inch MacBook pro 2015 early version.
 
-TBH I am not that picky when choosing an operating system, no matter windows 10, macOS, or even Linux distros, but MacBook always provide an excellent design, a decent command key, stability, and consistency. 
+TBH I am not that picky when choosing an operating system, no matter windows 10, macOS, or even Linux distros, but MacBook always provide an excellent design, a decent command key, stability, and consistency.
 
 Here is my MacBook Pro set up, I wrote this as a backup for the next time if I need to do this again, also is nice to share for those who need to set up their Mac for development propose.
 
@@ -20,13 +20,13 @@ Because I am in mainland China, a good connection to the *outside world* is nece
 
 - Add Internet Accounts: Gmail, Outlook, Personal Mail, etc.
 
-- General -> uncheck “Use font smoothing when available”, which is recommend for retina displays. 
+- General -> uncheck “Use font smoothing when available”, which is recommend for retina displays.
 
 - Accessibility -> Pointer Control -> Trackpad Options, check ”Enable dragging”, “three finger drag”.
 
 - Accessibility -> Siri, check “Enable Type to Siri”.
 
-- Keyboard -> Shortcuts -> Spotlight, ~~uncheck “Show Spotlight search”, use Alfred Instead,~~ then check use keyboard navigation to move focus between controls. 
+- Keyboard -> Shortcuts -> Spotlight, ~~uncheck “Show Spotlight search”, use Alfred Instead,~~ then check use keyboard navigation to move focus between controls.
 
 - Also, add other input sources if needed.
 
@@ -41,13 +41,6 @@ Because I am in mainland China, a good connection to the *outside world* is nece
 # Install Fonts
 
 Install FiraCode, DIN, Cascadia Code, Inter Fonts.
-
-# Config Git
-
-```shell
-git config --global user.name "Craig Hart"
-git config --global user.email "i@craigary.net"
-```
 
 # Homebrew and other necessary programs
 
@@ -88,6 +81,13 @@ Install other packages:
 brew install neofetch node scrcpy
 ```
 
+# Config Git
+
+```shell
+git config --global user.name "Craig Hart"
+git config --global user.email "i@craigary.net"
+```
+
 # Setup the terminal - iTerm2
 
 - Color Scheme: [Nord](https://github.com/arcticicestudio/nord-iterm2), theme: minimal, font: Fira Code
@@ -97,7 +97,7 @@ brew install neofetch node scrcpy
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-- Install Starship for the better terminal prompt: 
+- Install Starship for the better terminal prompt:
 
 ```shell
 brew install starship
@@ -105,7 +105,7 @@ echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 ```
 
 - Install zsh-autosuggestions for better history suggestions
-  
+
 ```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
@@ -116,7 +116,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-- enable these two plugins above: 
+- enable these two plugins above:
 
 ```
 # edit ~/.zshrc file
@@ -201,4 +201,4 @@ chmod 600 ~/.ssh/*
 
 Only things left are no that import like setting up 1Password, login telegram, etc.
 
-For my past experience, the whole process is not as compelicated as what you saw above, actually the whole set up can be done with in 1 hour, which is much faster than setting things up on a Windows machine since it doesn't has a decent package manager (I never try chocolatey, sorry). 
+For my past experience, the whole process is not as compelicated as what you saw above, actually the whole set up can be done with in 1 hour, which is much faster than setting things up on a Windows machine since it doesn't has a decent package manager (I never try chocolatey, sorry).

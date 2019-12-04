@@ -30,7 +30,7 @@ footer-image: images/14.jpg # Add background image in footer
 enable-comments: true # Add your shortname for Disqus Comment. For example mr-brown
 
 # Google Analytics
-google-analytics: "" # Add your identifier. For example UA-99631805-1.
+google-analytics: "UA-153866523-2" # Add your identifier. For example UA-99631805-1.
 
 # Newsletter
 enable-newsletter: false
